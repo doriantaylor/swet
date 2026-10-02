@@ -5,10 +5,10 @@ Template processing is something nearly every website has to do, and it's frankl
 **XSLT got many things right** that so-called "modern" client-side Web templating systems still fail to accomplish:
 
 * it is fully declarative (some templating systems are, many aren't)
-* it is total-functional, meaning it can't cause side effects
+* it is [total-functional](https://en.wikipedia.org/wiki/Total_functional_programming), meaning it can't cause side effects
 * it works by transforming DOM trees instead of stitching together tag soup
 * it is incapable of generating malformed output (unless you really go out of your way to force it to)
-* it operates out of band from JavaScript, meaning you can still manipulate the presentation while guaranteeing that the page itself only exibits deterministic behaviour
+* it operates out of band from JavaScript, meaning you can still manipulate the presentation while guaranteeing that the page itself only exhibits deterministic behaviour
 
 However, XSLT is not without its shortcomings:
 
